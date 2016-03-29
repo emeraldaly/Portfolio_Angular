@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="Portfolio">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <base href="/" />
+  </head>
+  <body>
+    <h1>TEST TEST TEST</h1>
+    <header ng-include="'views/templates/nav.html'"></header>
+   <div ui-view></div>
+
+   <a href="/" class="btn btn-warning" role="button">Home page</a>
+   <a href="/about" class="btn btn-warning" role="button">About page</a>
+   <a href="/projects" class="btn btn-warning" role="button">Projects</a>
+   <a href="/games" class="btn btn-warning" role="button">Games</a>
+   <a href="/rps" class="btn btn-warning" role="button">Rock Paper Scissor</a>
+
+   <a href="/clickgame" class="btn btn-warning" role="button">Click Game</a>
+
+   <footer ng-include="'views/templates/footer.html'"></footer>
+
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/controllers/homeworkController.js"></script>
+    <script type="text/javascript" src="/js/directives/homeworkItem.js"></script>
+  </body>
+</html>

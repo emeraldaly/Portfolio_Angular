@@ -1,0 +1,24 @@
+{
+  "name": "alysonportfolio",
+  "version": "1.0.0",
+  "description": "A portfolio built with the MEAN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldaly/Portfolio_Angular.git"
+  },
+  "author": "Alyson Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeraldaly/Portfolio_Angular/issues"
+  },
+  "homepage": "https://github.com/emeraldaly/Portfolio_Angular#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}
